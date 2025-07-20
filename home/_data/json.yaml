@@ -1,0 +1,25 @@
+- key: Name
+  value: Alek Rollyson
+- key: About
+  value:
+    - security leader
+    - incident response
+    - detection engineering
+    - cloud security
+    - kubernetes
+    - scaling security at fast growing startups
+  typed: true
+- key: Email
+  value: alek@rollyson.io
+  url: "mailto:alek@rollyson.io"
+- key: Profiles
+  value:
+    - value: LinkedIn
+      url: https://www.linkedin.com/in/alekrollyson/
+    - value: GitHub
+      url: https://github.com/arollyson
+    - value: Twitter
+      url: https://twitter.com/_forkbomb
+- key: Source
+  value: arollyson/rollyson.io
+  url: https://github.com/arollyson/rollyson.io

@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Alek Rollyson
+email: alek@rollyson.io
+description: >- # this means to ignore newlines until "baseurl:"
+  Security leader specializing in startup environments, infrastructure security, 
+  cloud-native architectures, and Kubernetes security. Building resilient, 
+  scalable security programs for high-growth companies.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://rollyson.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: arollyson
+github_username:  arollyson
+newtab: true
+color_value: blue-3
+color_hover: blue-1
+
+# Build settings
+theme: hacked-jekyll
+
+exclude:
+  - LICENSE
+  - README.md
+  - vendor/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
